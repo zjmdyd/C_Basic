@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38622A7A1C3B711D00DACD31 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 38622A791C3B711D00DACD31 /* array.c */; };
 		663B81201B93EC3E00541BC3 /* radix.c in Sources */ = {isa = PBXBuildFile; fileRef = 663B811F1B93EC3E00541BC3 /* radix.c */; };
 		663B81281B93EE5D00541BC3 /* rand().c in Sources */ = {isa = PBXBuildFile; fileRef = 663B81271B93EE5D00541BC3 /* rand().c */; };
 		663B812B1B93EEA600541BC3 /* E.c in Sources */ = {isa = PBXBuildFile; fileRef = 663B812A1B93EEA600541BC3 /* E.c */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38622A791C3B711D00DACD31 /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
 		663B811F1B93EC3E00541BC3 /* radix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radix.c; sourceTree = "<group>"; };
 		663B81271B93EE5D00541BC3 /* rand().c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "rand().c"; sourceTree = "<group>"; };
 		663B812A1B93EEA600541BC3 /* E.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = E.c; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38622A781C3B70C200DACD31 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				38622A791C3B711D00DACD31 /* array.c */,
+			);
+			name = array;
+			sourceTree = "<group>";
+		};
 		663B81211B93ED7700541BC3 /* static */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				66F7177B1B91B4F400DDFAFD /* main.c */,
+				38622A781C3B70C200DACD31 /* array */,
 				663B81261B93EDCB00541BC3 /* radix */,
 				663B81251B93EDBE00541BC3 /* operator */,
 				663B81241B93ED8800541BC3 /* string */,
@@ -239,6 +250,7 @@
 				663B81281B93EE5D00541BC3 /* rand().c in Sources */,
 				66F717841B91B4FE00DDFAFD /* extern.c in Sources */,
 				66F717B31B91BDF800DDFAFD /* enumeration.c in Sources */,
+				38622A7A1C3B711D00DACD31 /* array.c in Sources */,
 				66F717851B91B4FE00DDFAFD /* static.c in Sources */,
 				66F717B51B91BEA000DDFAFD /* string.c in Sources */,
 				66F9A6AD1BA6BB86000B180C /* preprocessing.c in Sources */,

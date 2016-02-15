@@ -18,9 +18,11 @@ void testMathFunc();
 void testExpression();
 void testTimeFunc();
 void testRand();
+void testArray();
 
 int main(int argc, const char * argv[]) {
     
+#ifdef MAX
     a = 10;
     b = 20;         // 此b与static.c中得b不一样,因为其被static关键字修饰,外部不可见
     testExtern();   // a = 10
@@ -31,6 +33,9 @@ int main(int argc, const char * argv[]) {
     
     testExpression();
     testRand();
+#endif
+    
+    testArray();
 
     return 0;
 }
