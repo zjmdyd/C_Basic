@@ -9,9 +9,10 @@
 #include <stdio.h>
 
 extern int a;  // 声明全局变量
+extern int b;
 
 void testExtern() {
-    printf("extern.c中的a = %d\n", a);
+    printf("extern.c中的a = %d, %d\n", a, b);
 }
 
 
