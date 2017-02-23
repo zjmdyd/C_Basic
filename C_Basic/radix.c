@@ -14,7 +14,7 @@ void testRadix() {
     printf("i的十六进制 :%#X\n", i);     // i的十六进制 :0X20
     
     //十六进制转十进制
-    char *str = "0x0010";
+    char *str = " 0010";
     unsigned long j = strtoul(str , 0, 16);
     printf("j = %ld", j);               // j = 16
     

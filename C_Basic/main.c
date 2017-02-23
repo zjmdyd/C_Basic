@@ -23,6 +23,7 @@ void testOperator();
 void testBinaryRadix();
 void testBitwiseOperator();
 void testUnsignedBitwiseOperator();
+void testRadix();
 
 int main(int argc, const char * argv[]) {
     
@@ -42,8 +43,8 @@ int main(int argc, const char * argv[]) {
     testOperator();
     testUnsignedBitwiseOperator();
 #endif
-
-    testBitwiseOperator();
+    testRadix();
+//    testBitwiseOperator();
     
     return 0;
 }
